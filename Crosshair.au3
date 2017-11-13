@@ -116,7 +116,7 @@ Func GUI()
 			MsgBox(0, "Help", "Press F-10 to start drawing Crosshair" & @CRLF & "Press F-11 to stop drawing Crosshair" & @CRLF & @CRLF & "Made by Steve Mavic")
 		 Case $idAboutItemAuthor
 			$response = MsgBox(0, "Message", "If you found bugs, please report it by writing a message to me.")
-			If $response = $IDOK Then ShellExecute("https://guidedhacking.com/member.php?58733-SteveMavic")
+			If $response = $IDOK Then ShellExecute("https://github.com/SteveMavic")
 		 Case $idFileItemClear
 			$response = MsgBox(BitOR($MB_YESNO,$MB_ICONWARNING), "Warning", "This option will DELETE all of your saved configuration and will clear default configuration which has been set." & @CRLF & @CRLF & "Continue?" )
 			If $response = $IDYES Then
